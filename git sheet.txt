@@ -1,0 +1,37 @@
+Github
+
+github bash commands---
+git --version:to check version
+git config --global user.name Abhi : to give name
+git config --global user.email abhinan03@gmail.com
+git config --global user.email : to see your email
+git config --global user.name : to see the name
+code . : used to open vs code
+ls -lart : to see all hidden folder
+ls : used to show the all files
+mkdir name:to make directories or folder
+cd name:to select folder
+git init:to initiate git for specific folder use this command after using cd name
+git add index.html : to commit the file
+git status : to see commited files
+
+to start tracking the file we should commit at least one time that we say intitial commit
+git commit
+enter i and write(initial commit)then esc then :wq and enter.
+
+touch about.html : used to creat blank files
+git add -A : used to commit all the files together or we can staging area
+
+git checkout home.html :  used to undo the modified file
+git checkout -f : used to undo all the modified files together
+git commit -m"anything" : used to add comment in file
+git log : used to know what you commited
+git log -p -5 : it will shows last 5 commited files that you've done
+git diff : used to compare the last file to modified file.shows changes
+
+git rm --cached file name : used to remove files from stagging area
+git rm file name : used to delete file from stagging and hardware
+
+
+git status -s : used to see the modified files name  
+(green M shows in stagging area modified and red shows in working tree)
